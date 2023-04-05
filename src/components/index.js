@@ -1,7 +1,6 @@
 export { default as Navigation } from "./Navigation";
 export { default as Home } from "./Home";
 export { default as Footer } from "./Footer";
-export {default as Cards} from "./Cards.jsx";
 export {default as Apropos} from "./Apropos.jsx"
 export {default as Evenements } from "./Evenements.jsx"
 export {default as Formations} from "./Formations.jsx"
