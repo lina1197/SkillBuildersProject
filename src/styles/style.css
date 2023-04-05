@@ -5,7 +5,6 @@
     width: 100%;
 }
 
-
 html,body {
     margin: 0;
     padding: 0;
@@ -70,7 +69,7 @@ body>* {
 }
 
 .cardGrid {
-    background-image: radial-gradient(100% 313.72% at 100% 100%, rgba(143, 0, 255, 0.4) 0%, rgba(0, 115, 255, 0.4) 100%) !important;
+    
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, 300px);
@@ -78,6 +77,7 @@ body>* {
     align-items: center;
     margin-bottom:20px;
 }
+.TheCards {background-image: radial-gradient(100% 313.72% at 100% 100%, rgba(143, 0, 255, 0.4) 0%, rgba(0, 115, 255, 0.4) 100%) !important;}
 
 .card0 {
     align-items: center;
@@ -263,11 +263,15 @@ body>* {
 }
 
 .cardGrid2 {
-    background-image: radial-gradient(100% 313.72% at 100% 100%, rgba(143, 0, 255, 0.4) 0%, rgba(0, 115, 255, 0.4) 100%) !important;
+    
     display: grid;
     grid-gap: 0.5rem;
     grid-template-columns: 1fr;
     justify-items: center;
+}
+
+.TheCards2 {
+background-image: radial-gradient(100% 313.72% at 100% 100%, rgba(143, 0, 255, 0.4) 0%, rgba(0, 115, 255, 0.4) 100%) !important;
 }
 
 @media (min-width: 1024px) {
@@ -283,3 +287,36 @@ body>* {
 .flexD {
     display:flex;
 }
+
+.card3 {
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+
+    min-height: 600px;
+    width: 300px;
+    flex-direction: column;
+    text-align: center;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.cardGrid3 {
+    
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.TheCards3 {background-image: radial-gradient(100% 313.72% at 100% 100%, rgba(143, 0, 255, 0.4) 0%, rgba(0, 115, 255, 0.4) 100%) !important;}
+
+.card3 img {
+    height: 200px;
+    width: 200px;
+};

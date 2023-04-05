@@ -9,6 +9,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import "../../src/styles/style.css";
+import { Link } from "react-router-dom";
 
 
 export default function Footer() {
@@ -47,83 +48,68 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol lg='2' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
+              <h5 className='text-uppercase'>Raccourcis</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 1
-                  </a>
+                  
+                  <Link to='/' className='text-dark'>accueil</Link>
+
+
                 </li>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 2
-                  </a>
+                  
+                  <Link to='/Formations' className='text-dark'>Formations</Link>
+
                 </li>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 3
-                  </a>
+                 
+                  <Link to='/Événements' className='text-dark'>Événements</Link>
                 </li>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 4
-                  </a>
+                  
+                    <Link to='/Calendrier' className='text-dark'>Calendrier</Link>
+                </li>
+                <li>
+                  
+                  <Link to='/Carrières' className='text-dark'>Carrières</Link>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
+              <h5 className='text-uppercase'>Legal</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 1
-                  </a>
+            
+                  <Link to='/Mentions légales' className='text-dark'>Mentions légales</Link>
                 </li>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 2
-                  </a>
+                  
+                  <Link to='/Données personnelles  et cookies' className='text-dark'>Données personnelles  et cookies</Link>
                 </li>
-                <li>
-                  <a href='#!' className='text-dark'>
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-dark'>
-                    Link 4
-                  </a>
-                </li>
+                
               </ul>
             </MDBCol>
 
             <MDBCol  lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
+              <h5 className='text-uppercase'>Support</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 1
-                  </a>
+                  
+                  <Link to='/Données personnelles  et cookies' className='text-dark'>Contact us</Link>
                 </li>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 2
-                  </a>
+                  
+                  <Link to='/Données personnelles  et cookies' className='text-dark'>Need help ?</Link>
                 </li>
                 <li>
-                  <a href='#!' className='text-dark'>
-                    Link 3
-                  </a>
+                 
+                  <Link to='/Données personnelles  et cookies' className='text-dark'>FAQ</Link>
                 </li>
-                <li>
-                  <a href='#!' className='text-dark'>
-                    Link 4
-                  </a>
-                </li>
+               
               </ul>
             </MDBCol>
            

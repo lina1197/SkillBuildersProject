@@ -4,6 +4,7 @@ import CardGrid from './CardGrid';
 import "../../src/styles/style.css";
 
 const TheCards = () => (
+  <div className="TheCards">
   <CardGrid>
     { Array(4).fill().map((_, i) => (
         <Card key={i}>
@@ -17,5 +18,9 @@ const TheCards = () => (
       ))
     }
   </CardGrid>
+    <div style={{ padding: '3px', margin:'0', textAlign:"center"}}>
+      <button className="btn btn-rounded btn-light text-primary text-sm-center" >Voir plus</button>
+    </div>
+        </div>
 )
 export default TheCards;

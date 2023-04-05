@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Navigation, Home,Footer,Cards,Apropos,Formations,Evenements,Calendrier,Sinscrire,SeConnecter }  from "./components"; 
+import { Navigation, Home,Footer,Cards,Apropos,Formations,Evenements,Calendrier,Sinscrire,SeConnecter,NotFound }  from "./components"; 
 import Layout from './components/Layout';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +13,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
             <Route path="/Calendrier" element={<Calendrier />} />
+<Route path='*' element={<NotFound />}/>
 
     </Routes>
   </Router>

@@ -1,18 +1,4 @@
-// import React from 'react';
-// import Navigation from './Navigation';
-// import Background from './Background';
 
-// const Layout = ({ children }) => {
-//   return (
-//     <div>
-//       <Background />
-//       <Navigation />
-//       {children}
-//     </div>
-//   );
-// }
-
-// export default Layout;
 import React from 'react';
 import Navigation from './Navigation';
 import Background from './Background';
