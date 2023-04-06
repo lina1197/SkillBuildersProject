@@ -2,6 +2,7 @@ import React from 'react';
 import Card3 from './Card3';
 import CardGrid3 from './CardGrid3';
 import "../../src/styles/style.css";
+import { Link } from "react-router-dom";
 
 const TheCards3 = () => (
       <div className="TheCards3">
@@ -22,7 +23,8 @@ const TheCards3 = () => (
   </CardGrid3> 
   
     <div style={{ padding: '3px', margin:'0', textAlign:"center"}}>
-      <button className="btn btn-rounded btn-light text-primary text-sm-center" >Voir plus</button>
+      <Link to='/NotFound'><button className="btn btn-rounded btn-light text-primary text-sm-center" >Voir plus</button></Link>
+      
     </div>
   </div>
 )

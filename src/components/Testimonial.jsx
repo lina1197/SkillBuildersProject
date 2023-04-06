@@ -22,8 +22,12 @@ const Testimonial = () => {
           
         </div>
         <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
+          <img src="/images/sliderIMG2.png" />
+          <div className="myCarousel"><h3>Lily Chen</h3>
+            <h4>étudiante</h4>
+            <p>
+              Je suis actuellement étudiante en marketing dans une école de formation en ligne et je suis ravie de la flexibilité offerte par cette méthode d'apprentissage. Les cours en ligne me permettent de gérer mon temps plus efficacement tout en développant mes compétences marketing de manière pratique et interactive. Je suis convaincue que cette expérience d'apprentissage en ligne sera un atout précieux pour ma future carrière.
+            </p></div>
         </div>
         <div>
           <img src="assets/3.jpeg" />

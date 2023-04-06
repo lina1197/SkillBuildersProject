@@ -123,7 +123,7 @@ export default function Footer() {
   <div className="row justify-content-center">
     <div className="col-md-12 col-lg-12 d-flex justify-content-center flex-md-row flex-column align-items-center">
       <p className="mb-3 mb-md-0 me-md-3 text-center text-md-start" style={{ marginRight: '1rem' }}>Inscrivez vous maintenant!.</p>
-      <button className="btn btn-rounded btn-light text-primary text-sm-center" style={{ padding: '3px', margin:'0'}}>S'INSCRIRE</button>
+      <Link to='/NotFound'><button className="btn btn-rounded btn-light text-primary text-sm-center" style={{ padding: '3px', margin:'0'}}>S'INSCRIRE</button></Link>
     </div>
   </div>
 </div>

@@ -88,6 +88,11 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link" to="/Carrieres">
+                  Carrieres
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/Sinscrire">
                   S'inscrire
                 </NavLink>
