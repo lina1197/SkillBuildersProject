@@ -1,0 +1,118 @@
+
+
+.conteneur{background: radial-gradient(
+    100% 313.72% at 98.02% 49.2%,
+    rgba(143, 0, 255, 0.4) 0%,
+    rgba(0, 115, 255, 0.4) 100%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 50px;}
+  
+  .titre{
+    padding-top:  30px;
+    color:  #0073FF;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .conteneur2{
+    background-image: url('/public/images/event/Sans titre (70).png');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+  
+  .title{
+    text-align: center;
+    font-size: 50px;
+    
+  }
+  
+  
+  .contenu {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+  .img1 {
+   margin: 20px;
+    width: 300px;
+    height: 300px;
+  }
+  .para{text-align: center;
+    font-size: 30px;
+  margin-top: 80px;}
+  
+  
+  
+  
+  @media (min-width: 769px) and (max-width: 1296px) {
+    .para{
+      margin: 10px;
+    }
+    .img1 {
+      margin: 20px;
+       width: 300px;
+       height: 300px;
+       margin-top: 20px
+     }
+  }
+  
+  @media (max-width: 908px) {
+    .para{
+      margin: 10px;
+    }
+    .img1 {
+      margin: 20px;
+       width: 300px;
+       height: 300px;
+       margin-top: 60px
+     }
+  }
+  
+  @media (max-width: 874px) {
+    .para{
+      margin: 10px;
+    }
+    .img1 {
+      margin: 20px;
+       width: 300px;
+       height: 300px;
+       margin-top: 100px
+     }
+  }
+  @media (max-width: 795px) {
+  
+    .img1 {
+      display: flex;
+      justify-content:center ;
+      align-items: center;
+     
+     }
+    .contenu{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+    
+  
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

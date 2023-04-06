@@ -78,7 +78,7 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Événements">
+                <NavLink className="nav-link" to="/Evenements">
                   Événements
                 </NavLink>
               </li>
