@@ -1,0 +1,32 @@
+.mconteneur1{
+    background: radial-gradient(
+        100% 313.72% at 98.02% 49.2%,
+        rgba(143, 0, 255, 0.4) 0%,
+        rgba(0, 115, 255, 0.4) 100%
+      );
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      margin: 100px;
+}
+
+.tf1{
+    text-align: center;
+    color:#0073FF;
+
+}
+
+.tf{
+    
+    color:#0073FF;
+    margin: 20px;
+}
+
+.tp{
+font-size: 25px;
+margin: 20px;
+
+
+}
