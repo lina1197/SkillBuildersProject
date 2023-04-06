@@ -30,8 +30,12 @@ const Testimonial = () => {
             </p></div>
         </div>
         <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
+          <img src="/images/sliderIMG3.png" />
+          <div className="myCarousel"><h3> Sabah BENSAID</h3>
+            <h4>professeur</h4>
+            <p>
+              En tant que professeur en ligne, j'apprécie la souplesse de l'enseignement en ligne qui permet aux étudiants de suivre les cours à leur propre rythme tout en bénéficiant d'une attention individualisée. Notre école en ligne propose des programmes d'études de qualité supérieure qui sont conçus pour préparer les étudiants à réussir dans leur domaine de prédilection. C'est un honneur pour moi de faire partie de cette communauté d'apprentissage en ligne dynamique et en constante évolution.
+            </p></div>
         </div>
       </Carousel>
     );
